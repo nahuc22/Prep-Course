@@ -65,7 +65,7 @@ describe('saludo(idioma)', function() {
   });
 });
 
-describe('colors(color)', function() {
+describe('colors(color)', function(color) {
   it('should return \'This is {color}\'', function() {
     expect(colors("blue")).toBe('This is blue');
     expect(colors("red")).toBe('This is red');
